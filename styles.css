@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: black;
+    background: url('./images/idioms.jpg') no-repeat center center fixed; /* Set the background image */
+    background-size: cover; /* Ensure the background image covers the entire screen */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use full height of the viewport */
+  
+}
+
+.app {
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.9); /* Background for app section */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+}
+
+h1 {
+    color: #096d79;
+}
+
+#idiomDisplay {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#descriptionDisplay {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #888b8b;
+}
+
+button {
+    background-color: #096d79;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0a8b95;
+}
